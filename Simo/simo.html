@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css_simo/simo.css">
+    <link href="https://fonts.cdnfonts.com/css/tisa-sans-pro" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> <!--Bootstrap linkki css tiedostoon-->
+    <title>Etusivu</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="container-fluid flex-shrink-0">
+        <header class="d-flex justify-content-center align-items-center"></header>
+        <!--Navbar bootstrap alkaa tästä-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainmenu"
+                    aria-controls="mainmenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>   <!--kuva hamppari viivoille-->
+                </button>
+                <div class="collapse navbar-collapse" id="mainmenu">    <!--Navigointi baari + linkit-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Index.html" id="link1">Etusivu</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="link2">Englanti</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Tiia/tiia.html" id="link3">Historia</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="link4">Linkki 4</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="link5">Linkki 5</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="simo.html" id="link6">Linkki 6</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="link7">Tietoja</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar bootstrap loppuu tähän-->
+
+        <!--Etusivun sisältö alkaa tästä-->
+        <div class="firstPage">
+            <div class="image">
+                <img id="violetti" src="./Kuvat/lehtinen.png" alt width="200px">
+            </div>
+        
+           
+            <div class="wrapper">
+            <h4> Mikä on maan pääkaupunki?!!!</h4>
+            <div class="content"></div>
+                <input type="text" class="typing-input">
+                <div class="inputs"></div>
+                <button class="guess_button" type="button">Arvaa</button>
+                <div class="details">
+                    <p class="hint">maa: <span></span></p>
+                    <p class="guess-left">remaining guesses</p>
+                    <p class="wrong-letter">wong letters: <span></span></p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <!--Etusivun sisältö päättyy tähän-->
+
+    </div>
+    <!--Footer alkaa tästä-->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="team">                      <!--Näitä saa poistaa jos kolme aluetta on liikaa-->           
+                <p class="col-md-4">Tiimi-12: Tiia, Matias, Krista, Samuel & Simo</p>
+                <p class="col-md-4">TIK23SP</p>
+            </div>
+        </div>
+    </footer>
+    <!--Footer loppuu tähän-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> <!--Bootstrap linkki javascript tiedostoon-->
+    <script src="js_simo/simo.js"></script>
+</body>
+</html>

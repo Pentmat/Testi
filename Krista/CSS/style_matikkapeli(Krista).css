@@ -1,0 +1,160 @@
+#background{
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 5px solid rgb(255, 163, 179);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+#question{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 96, 122);
+    background-color: rgb(255, 209, 216);
+    border: 3px solid rgb(255, 163, 179);
+    border-radius: 25px;
+    width: 55px;
+    margin-left: 180px;
+    margin-right: 180px;
+    position: relative;
+}
+#button{
+    background-color: rgb(255, 163, 179);
+    border: 5px solid pink;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(255, 96, 122);;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 96, 122);;
+    background-color: pink;
+    text-align: center; 
+    border:solid 5px rgb(255, 163, 179);
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: pink;
+    border: 5px solid rgb(255, 163, 179);
+    border-radius: 25px;
+    font-weight: 450;
+    color: rgb(255, 96, 122);
+    width: 250px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.Kysyms{
+    align-items: center;
+    border-color: rgb(255, 96, 122);
+}
+#palaute{
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+}
+header {
+     background-image: url(../CSS/Background_Image/Tulip_Background.jpg);
+     height: 150px;
+     margin-left: -12px;
+     margin-right: -12px;
+ }
+ 
+ nav {
+    background-color: pink;      /*D3C5E5*/
+    border: 5px solid rgb(255, 163, 179);
+    font-weight: bold;
+    font-family: 'Tisa Sans Pro' , sans-serif;
+    margin-left: -12px;
+    margin-right: -12px;
+    color: rgb(255, 96, 122);
+ }
+ 
+ .nav-item {
+     padding: 5px;
+ }
+ 
+ footer {
+    background-color: rgb(255, 163, 179);
+    border: 5px solid rgb(255, 96, 122);
+    color: #f5f5f5;/*f5f5f5*/
+ }
+ .team{
+    width: px;
+ }
+ 
+ li a:hover {
+    font-weight: bold;
+ }
+ body {
+    background-image: linear-gradient(to right, pink, pink); /*FF69B4*/
+ }
+ 
+ .firstPage {
+     background-color: rgb(255, 215, 221);
+     display: grid;
+     grid-template-columns: 3fr 20fr;
+     grid-template-rows: 1fr;
+     margin-left: 60px;
+     margin-right: 60px;
+     padding-right: 20px;
+     min-height: 500px;
+     align-items: center;
+ }
+ 
+ .image {
+     display: flex;
+     grid-column: 1/2;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+ }
+ 
+ .firstPage h3 {
+     font-size: 28px;
+ }
+ .text {
+     display: flex;
+     grid-column: 2/3;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     font-family: 'Tisa Sans Pro' , sans-serif;
+     font-size: 20px;
+ }
+ #piste{
+    background-color: pink;
+    border: 5px solid rgb(255, 163, 179);
+    border-radius: 25px;
+    color: rgb(255, 96, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     #violetti {display: none;}
+ }
+
+ 

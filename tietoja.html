@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/tisa-sans-pro" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> <!--Bootstrap linkki css tiedostoon-->
+    <title>Tietoja</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="container-fluid flex-shrink-0">
+        <header class="d-flex justify-content-center align-items-center"></header>
+        <!--Navbar bootstrap alkaa tästä-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainmenu"
+                    aria-controls="mainmenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>   <!--kuva hamppari viivoille-->
+                </button>
+                <div class="collapse navbar-collapse" id="mainmenu">    <!--Navigointi baari + linkit-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" id="link1">Etusivu</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Matias/flashcard_matias.html" id="link2">Englanti</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Tiia/tiia.html" id="link3">Historia</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Krista/matikkapeli_sivu(krista).html" id="link4">Matikkapeli</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Samuel/Biologia.html" id="link5">Biologia</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Simo/simo.html" id="link6">Maantieto</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Scoreboard.html" id="link7">Pisteet</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tietoja.html" id="link8">Tietoja</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar bootstrap loppuu tähän-->
+
+        <!--Etusivun sisältö alkaa tästä-->
+        <div class="firstPage d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Tiimi-12 Webprojekti verkkosivut</h1>
+                        <p>Tämä sivusto sisältää kokoelman erinlaisia oppimispelejä.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>Matias Penttinen / Englannin kieli</h3>
+                        <p>
+                            "Pelini on yksinkertainen muistikorttipeli, jossa pelaajan tehtävänä on yhdistää oikea 
+                            englannin kielen sana kuvaan. Väärästä vastauksesta kuva muuttuu punaiseksi ja oikeasta vihreäksi.
+                            Kun olet saanut sanan oikein saat yhden 1+ pisteen ja voit hypätä seuraavaan korttiin. 
+                            Vastuualueeseeni kuuluu myös sivuston ulkoasun suunnittelu sekä yleiset tehtävät. 
+                            Olen suunnitellut pisteenlaskusivun, joka on yhteinen kaikille peleille, 
+                            ja toteuttanut local storage -järjestelmän pelaajien pisteiden tallentamiseksi."
+                        </p>
+                        <!--Omat esittelyt tähän sivustolla-->
+                        <h3>Krista Korento / Matikka</h3>
+                        <p>
+                            "Minun matikkapelini on todella yksinkertainen, jossa tulee 10 eri laskua. Jotka voivat olla kerto, miinus, plus tai jako laskuja.
+                            Minun vastuu alueeseeni kuului sivun logon suunittelu/toteutus ja sitten tuon oman matikkapelin koodaaminen ja suunittelu."
+                        </p>
+
+                        <h3>Salla Sallanen</h3>
+                        <p>
+                            "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA."
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Etusivun sisältö päättyy tähän-->
+
+    </div>
+    <!--Footer alkaa tästä-->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="team">                      <!--Näitä saa poistaa jos kolme aluetta on liikaa-->           
+                <p class="col-md-4">Tiimi-12: Tiia, Matias, Krista, Samuel & Simo</p>
+                <p class="col-md-4">TIK23SP</p>
+            </div>
+        </div>
+    </footer>
+    <!--Footer loppuu tähän-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> <!--Bootstrap linkki javascript tiedostoon-->
+    <script src="./JS/functions.js"></script>
+</body>
+</html>
